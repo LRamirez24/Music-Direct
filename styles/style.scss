@@ -701,3 +701,169 @@ p{
     
     }
 }
+
+
+@media only screen and (max-width: 425px) {
+
+
+    .hero{
+        h1{
+            font-size: 4rem;
+           padding-left: 1.6rem;
+           padding-right: 1.6rem;
+           padding-top: 100px;
+        }
+        // br{
+        //     display: none;
+        // }
+        p{
+            font-size: 16px;
+            line-height: 150%;
+            padding-left: 1.6rem;
+            padding-right: 1.6rem;
+        }
+        .input-form{
+            margin-top: 40px;
+            input{
+                padding: 1.2rem 1.2rem;
+                width: 20rem;
+                // height: 4rem;
+                background: #313131;
+                border-radius: 0.8rem;
+                border: 1px solid #f2f2f2;
+            }
+            button{
+                padding: 1.2rem 1.6rem;
+                background: #AD00FF;
+                color: #f2f2f2;
+                font-family: "Clash Display", sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 150%;
+                border-radius: 0.8rem;
+                border: none;
+                margin-left: 1.6rem;
+            }
+            ::placeholder {
+                color: #ABABAB;
+                text-transform: uppercase;
+                font-size: 1.2rem;
+              }
+        }
+    }
+
+    .image-gallery{
+        display: flex;
+        justify-content: space-around;
+        // position: relative;
+    
+        .image-row1{
+            // position: absolute;
+            display: flex;
+            flex-direction: column;
+            margin-top: -80rem;
+            z-index: -1;
+            margin-left: 10rem;
+            
+            .image1{
+                max-width: 65rem;
+                height: 50rem;
+                object-fit: cover;
+                // margin-left: -10rem;
+                border-radius: 1.6rem;
+            }
+            .image2{
+                max-width: 65rem;
+                height: 40rem;
+                object-fit: cover;
+                // margin-left: -10rem;
+                border-radius: 1.6rem;
+                margin-top: 4rem;
+            }
+            .image3{
+                max-width: 60rem;
+                height: 30rem;
+                object-fit: cover;
+                // margin-left: -10rem;
+                border-radius: 1.6rem;
+                margin-top: 4rem;
+            }
+        }
+        .image-row2{
+            // position: absolute;
+            display: flex;
+            flex-direction: column;
+            margin-top: -80rem;
+            margin-left: 4rem;
+            z-index: -1;
+            .image4{
+                max-width: 63rem;
+                height: 30rem;
+                object-fit: cover;
+                // margin-left: -8rem;
+                border-radius: 1.6rem;
+            }
+            .image5{
+                max-width: 70rem;
+                height: 40rem;
+                object-fit: cover;
+                // margin-left: -4rem;
+                border-radius: 1.6rem;
+                margin-top: 4rem;
+                
+            }
+            .image6{
+                max-width: 70rem;
+                height: 30rem;
+                object-fit: cover;
+                // margin-left: -4rem;
+                border-radius: 1.6rem;
+                margin-top: 4rem;
+            }
+            .image-test{
+                max-width: 70rem;
+                height: 30rem;
+                object-fit: cover;
+                // margin-left: -4rem;
+                border-radius: 1.6rem;
+                margin-top: 4rem;
+            }
+        }
+        .image-row3{
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            margin-top: -75rem;
+            z-index: -1;
+            right: -65rem;
+           
+            .image7{
+                width: 73rem;
+                height: 40rem;
+                object-fit: cover;
+                margin-left: -4rem;
+                border-radius: 1.6rem;
+                
+            }
+            .image8{
+                width: 70rem;
+                height: 42rem;
+                object-fit: cover;
+                margin-left: -4rem;
+                border-radius: 1.6rem;
+                margin-top: 4rem;
+            }
+            .image9{
+                width: 70rem;
+                height: 40rem;
+                object-fit: cover;
+                margin-left: -4rem;
+                border-radius: 1.6rem;
+                margin-top: 4rem;
+            }
+            
+        }
+    
+    }
+}
+
