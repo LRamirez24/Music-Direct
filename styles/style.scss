@@ -238,6 +238,136 @@ p{
 
 
 
+// @media only screen and (min-width: 1400px) {
+//     .hero{
+//         margin-top: 100rem;
+//         h1{
+//             padding-top: 200px;
+//         }
+//         p{
+//             font-size: 2rem;
+//         }
+//     }
+//     .image-gallery{
+//         display: flex;
+//         justify-content: space-around;
+//         // position: relative;
+    
+//         .image-row1{
+//             // position: absolute;
+//             display: flex;
+//             flex-direction: column;
+//             margin-top: -60rem;
+//             z-index: -1;
+//             margin-left: 10rem;
+            
+//             .image1{
+//                 max-width: 65rem;
+//                 height: 50rem;
+//                 object-fit: cover;
+//                 // margin-left: -10rem;
+//                 border-radius: 1.6rem;
+//             }
+//             .image2{
+//                 max-width: 65rem;
+//                 height: 40rem;
+//                 object-fit: cover;
+//                 // margin-left: -10rem;
+//                 border-radius: 1.6rem;
+//                 margin-top: 4rem;
+//             }
+//             .image3{
+//                 max-width: 60rem;
+//                 height: 30rem;
+//                 object-fit: cover;
+//                 // margin-left: -10rem;
+//                 border-radius: 1.6rem;
+//                 margin-top: 4rem;
+//             }
+//         }
+//         .image-row2{
+//             // position: absolute;
+//             display: flex;
+//             flex-direction: column;
+//             margin-top: -75rem;
+//             margin-left: 4rem;
+//             z-index: -1;
+//             .image4{
+//                 max-width: 63rem;
+//                 height: 30rem;
+//                 object-fit: cover;
+//                 // margin-left: -8rem;
+//                 border-radius: 1.6rem;
+//             }
+//             .image5{
+//                 max-width: 70rem;
+//                 height: 40rem;
+//                 object-fit: cover;
+//                 // margin-left: -4rem;
+//                 border-radius: 1.6rem;
+//                 margin-top: 4rem;
+                
+//             }
+//             .image6{
+//                 max-width: 70rem;
+//                 height: 30rem;
+//                 object-fit: cover;
+//                 // margin-left: -4rem;
+//                 border-radius: 1.6rem;
+//                 margin-top: 4rem;
+//             }
+//             .image-test{
+//                 max-width: 70rem;
+//                 height: 30rem;
+//                 object-fit: cover;
+//                 // margin-left: -4rem;
+//                 border-radius: 1.6rem;
+//                 margin-top: 4rem;
+//             }
+//         }
+//         .image-row3{
+//             position: absolute;
+//             display: flex;
+//             flex-direction: column;
+//             margin-top: -75rem;
+//             z-index: -1;
+//             right: -65rem;
+           
+//             .image7{
+//                 width: 73rem;
+//                 height: 40rem;
+//                 object-fit: cover;
+//                 margin-left: -4rem;
+//                 border-radius: 1.6rem;
+                
+//             }
+//             .image8{
+//                 width: 70rem;
+//                 height: 42rem;
+//                 object-fit: cover;
+//                 margin-left: -4rem;
+//                 border-radius: 1.6rem;
+//                 margin-top: 4rem;
+//             }
+//             .image9{
+//                 width: 70rem;
+//                 height: 40rem;
+//                 object-fit: cover;
+//                 margin-left: -4rem;
+//                 border-radius: 1.6rem;
+//                 margin-top: 4rem;
+//             }
+            
+//         }
+    
+//     }
+// }
+
+
+
+
+
+
 @media only screen and (max-width: 1350px) {
     .hero{
         h1{
